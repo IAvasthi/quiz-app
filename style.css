@@ -5,7 +5,8 @@ body {
     height: 100vh;
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #000000;
+    color: #fff;
 }
 
 .main {
@@ -14,8 +15,20 @@ body {
 
 h1 {
     margin-bottom: 20px;
-    color: #333;
+    color: #fff;
 }
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #000000;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
 
 .button {
     display: inline-block;
@@ -35,7 +48,8 @@ h1 {
 .game-container {
     width: 600px;
     margin: 0 auto;
-    background-color: #fff;
+    background-color: #000000;
+    color: #fff;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -49,17 +63,17 @@ h1 {
 
 .hud-prefix {
     font-size: 16px;
-    color: #666;
+    color: #fff;
 }
 
 .hud-main-text {
     font-size: 24px;
-    color: #333;
+    color: #fff;
 }
 
 #question {
     font-size: 24px;
-    color: #333;
+    color: #fff;
 }
 
 .choice-container {
